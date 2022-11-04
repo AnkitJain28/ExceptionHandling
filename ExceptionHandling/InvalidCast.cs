@@ -27,6 +27,7 @@ namespace ExceptionHandling
             finally
             {
                 Console.WriteLine("Demo terminated.");
+                Console.WriteLine();
             }
         }
 

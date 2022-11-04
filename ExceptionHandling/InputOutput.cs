@@ -13,6 +13,10 @@ namespace ExceptionHandling
             try
             {
                 Console.WriteLine("Demo started.");
+                //int num1;
+                //Console.WriteLine("Enter an integer input :");
+                //num1 = Convert.ToInt32(Console.ReadLine());
+                File.Open("C:\\Users\\Ankit Jain\\Desktop\\Advanced", FileMode.Open);
             }
             catch (IOException IOException)
             {
@@ -23,6 +27,7 @@ namespace ExceptionHandling
             finally
             {
                 Console.WriteLine("Demo terminated.");
+                Console.WriteLine();
             }
         }
     }

@@ -12,8 +12,8 @@ namespace ExceptionHandling
             InvalidCast.Demo();
             InputOutput.Demo();
             NullReference.Demo();
-            //OutOfMemory.Demo();
-            StackOverflow.Demo();
+            OutOfMemory.Demo();
+            //StackOverflow.Demo();
 
         }
     }
